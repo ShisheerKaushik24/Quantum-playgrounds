@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 import numpy as np
 from qiskit.quantum_info import DensityMatrix, concurrence, state_fidelity
-from qiskit import QuantumCircuit
+from qiskit import QuantumCircuit 
 
 app = FastAPI()
 

@@ -3,9 +3,9 @@ import requests
 import pandas as pd
 
 TEMP_VALUE = 0.00001
-GAMMA_0_VALUES = [0.01, 0.1, 0.5, 1.0, 10, 100, 1000000]
+GAMMA_0_VALUES = [0.001, 0.01, 0.1, 0.5, 1.0, 10, 100, 1000]
 
-st.title("Quantum Visualization")
+st.title("Entanglment prediction Tools")
 
 time_range = st.slider("Select Time Range", 0, 100, (0, 100), step=1)
 
